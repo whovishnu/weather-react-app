@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+.App {
+  font-family: "IBM Plex Sans", sans-serif;
+  text-align: center;
+  background-image: linear-gradient(to right, #bfe2cc, #56d9ee);
+  padding: 20px;
+  color: #666;
+  min-height: 100vh;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.row-center {
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  background-color: black;
+  border-radius: 50%;
+  margin: 20px 0px;
+}
+
+.inputBox {
+  border-radius: 40px;
+  padding: 15px;
+  border: none;
+  margin-top: 10px;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.4);
+}
+
+.inputBox:focus {
+  outline: none;
+}
+
+.dot {
+  width: 1px;
+  border: 2.5px solid;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+.mainTemp {
+  font-size: 56px;
+  width: 70%;
+}
+
+.mainBox {
+  background-color: white;
+  border-radius: 30px;
+  margin: 30px auto;
+  padding: 30px;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.4);
+  width: 400px;
+}
+
+.bold {
+  font-family: "Alegreya", serif;
+  font-weight: bold;
+}
+
+.f-28 {
+  font-size: 28px;
+  text-transform: capitalize;
+}
+
+.f-14 {
+  font-size: 14px;
+  text-transform: capitalize;
+}
+
+.f-30 {
+  font-size: 30px;
+}
+
+.w-40 {
+  width: 30%;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+.minmax {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.errorMsg {
+  margin: 30px;
+  text-transform: capitalize;
+  font-size: 26px;
+  font-weight: bold;
+}
